@@ -6,4 +6,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [1.0.0]
 ### Added
-- `vm-wrapper` library
+- `vm-wrapper` 1.0
+- `docker` wrapper
+- `docker-compose` wrapper
