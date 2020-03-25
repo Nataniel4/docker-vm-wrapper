@@ -23,12 +23,3 @@ The same as docker when is installed locally in your system, that's why this is 
 #### Supported commands
 - `docker`
 - `docker-compose`
-
-### Known issues
-- `docker exec -it`
-	-	**Error:** "the input device is not a TTY"
-	-	**Workaround:** Use `-i` instead, no console output formatting.
-
-- `docker-compose exec`
-	-	**Error:** "the input device is not a TTY"
-	-	**Workaround:** Use `-T` parameter, no console output formatting.
