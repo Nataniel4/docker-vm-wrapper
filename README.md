@@ -2,11 +2,10 @@
 Use docker from a VM (using SSH) in your host machine as if were locally installed.
 
 ## Installation
-
 ### Requirements
-Install [vm-wrapper](https://github.com/Nataniel4/vm-wrapper)
+- **vm-wrapper**: Install it from [here](https://github.com/Nataniel4/vm-wrapper).
 
-Then copy the files from `Release` folder into the `/usr/local/bin` directory of you host system and set the ENV vars into your bash profile (if needed).
+Copy the files from `Release` folder into the `/usr/local/bin` directory of you host system and set the ENV vars into your bash profile (if needed).
 ```sh
 cp -r Release/. /usr/local/bin
 ```
